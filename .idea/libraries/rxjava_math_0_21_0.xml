@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="rxjava-math-0.21.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-math/0.21.0/ba8e126db5b51af2bc42ca0c09caac25e68a40f9/rxjava-math-0.21.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-math/0.21.0/7634e98658beaff17b1472947498a59683fb0dff/rxjava-math-0.21.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
