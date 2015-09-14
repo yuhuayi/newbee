@@ -32,79 +32,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46abbeb-a8d9-4e7f-85e5-4de448e47b81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/network/ApiManagerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AppUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArithUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArrayUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AssetDatabaseOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/CharacterParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ClearCacheManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/Coder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/model/Contributor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/DebounceSubPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DensityUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DigestUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DownloadManagerPro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/FileUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ImageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/JsonSubPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ListUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/LogUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MapUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MathExtendUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MyIntent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/NBConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ObjectUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/network/OkHttpUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/listener/OnFragmentResultListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PackageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PreferencesUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PromptManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RSACoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RandomUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RegexTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ResourceUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RxUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ScreenUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SerializeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ShellUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SingletonUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SizeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/SubActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SystemUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/TempleteSubPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TestUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/Tools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TransformTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ViewUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/WebViewPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_text.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_debounce_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_web_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_left_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_left_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_right_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_right_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sub_activity_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toast_layout.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/MainActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newbee.iml" afterPath="$PROJECT_DIR$/newbee.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AppUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AppUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArithUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArithUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArrayUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ArrayUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AssetDatabaseOpenHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/AssetDatabaseOpenHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/BaseFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/CharacterParser.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/CharacterParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ClearCacheManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ClearCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DateUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/DebounceSubPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/DebounceSubPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DensityUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DensityUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DigestUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DigestUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DownloadManagerPro.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/DownloadManagerPro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/FileUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/FileUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ImageUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ImageUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/JsonSubPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/demo/JsonSubPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ListUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ListUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/LogUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/LogUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MapUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MapUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MathExtendUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MathExtendUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MyIntent.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/MyIntent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/NBConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/NBConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ObjectUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ObjectUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/listener/OnFragmentResultListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/listener/OnFragmentResultListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PackageUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PackageUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PreferencesUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PreferencesUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PromptManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/PromptManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RandomUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RandomUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RegexTool.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/RegexTool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ResourceUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ResourceUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ScreenUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ScreenUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SerializeUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SerializeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ShellUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ShellUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SingletonUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SingletonUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SizeUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SizeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/StringUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/StringUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/SubActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/base/SubActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SystemUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/SystemUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/TempleteSubPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/TempleteSubPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TestUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TestUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TimeUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TimeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/Tools.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TransformTools.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/TransformTools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ViewUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/util/ViewUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/WebViewPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/newbee/lib/activity/subpage/WebViewPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_text.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_text.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_debounce_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_debounce_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_web_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_web_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_left_in.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_left_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_left_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_left_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_right_in.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_right_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_right_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_right_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/sub_activity_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sub_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/toast_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toast_layout.xml" />
     </list>
     <ignored path="newbee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,7 +140,7 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/newbee/lib/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63">
+            <state vertical-scroll-proportion="0.41501975">
               <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding />
             </state>
@@ -215,10 +197,33 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="202" column="21" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="21" />
               <folding>
-                <element signature="e#5735#5736#0" expanded="true" />
-                <element signature="e#5780#5781#0" expanded="true" />
-                <element signature="e#6778#6779#0" expanded="true" />
-                <element signature="e#6823#6824#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3038#3039#0" expanded="false" />
+                <element signature="e#3089#3090#0" expanded="false" />
+                <element signature="e#3243#3244#0" expanded="false" />
+                <element signature="e#3300#3301#0" expanded="false" />
+                <element signature="e#3392#3393#0" expanded="false" />
+                <element signature="e#3453#3454#0" expanded="false" />
+                <element signature="e#3543#3544#0" expanded="false" />
+                <element signature="e#3602#3603#0" expanded="false" />
+                <element signature="e#3671#3672#0" expanded="false" />
+                <element signature="e#3697#3698#0" expanded="false" />
+                <element signature="e#3762#3763#0" expanded="false" />
+                <element signature="e#3814#3815#0" expanded="false" />
+                <element signature="e#5155#5156#0" expanded="false" />
+                <element signature="e#5190#5191#0" expanded="false" />
+                <element signature="e#5443#5444#0" expanded="false" />
+                <element signature="e#5492#5493#0" expanded="false" />
+                <element signature="e#6027#6028#0" expanded="false" />
+                <element signature="e#6074#6075#0" expanded="false" />
+                <element signature="e#6405#6406#0" expanded="false" />
+                <element signature="e#6454#6455#0" expanded="false" />
+                <element signature="e#7148#7149#0" expanded="false" />
+                <element signature="e#7195#7196#0" expanded="false" />
+                <element signature="e#11832#11833#0" expanded="false" />
+                <element signature="e#11874#11875#0" expanded="false" />
+                <element signature="e#12139#12140#0" expanded="false" />
+                <element signature="e#12185#12186#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2879,7 +2884,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439547483733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基础代码导入">
+      <created>1442222180276</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1442222180276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2896,7 +2907,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3371,10 +3382,33 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="202" column="21" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="21" />
           <folding>
-            <element signature="e#5735#5736#0" expanded="true" />
-            <element signature="e#5780#5781#0" expanded="true" />
-            <element signature="e#6778#6779#0" expanded="true" />
-            <element signature="e#6823#6824#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3038#3039#0" expanded="false" />
+            <element signature="e#3089#3090#0" expanded="false" />
+            <element signature="e#3243#3244#0" expanded="false" />
+            <element signature="e#3300#3301#0" expanded="false" />
+            <element signature="e#3392#3393#0" expanded="false" />
+            <element signature="e#3453#3454#0" expanded="false" />
+            <element signature="e#3543#3544#0" expanded="false" />
+            <element signature="e#3602#3603#0" expanded="false" />
+            <element signature="e#3671#3672#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="false" />
+            <element signature="e#3762#3763#0" expanded="false" />
+            <element signature="e#3814#3815#0" expanded="false" />
+            <element signature="e#5155#5156#0" expanded="false" />
+            <element signature="e#5190#5191#0" expanded="false" />
+            <element signature="e#5443#5444#0" expanded="false" />
+            <element signature="e#5492#5493#0" expanded="false" />
+            <element signature="e#6027#6028#0" expanded="false" />
+            <element signature="e#6074#6075#0" expanded="false" />
+            <element signature="e#6405#6406#0" expanded="false" />
+            <element signature="e#6454#6455#0" expanded="false" />
+            <element signature="e#7148#7149#0" expanded="false" />
+            <element signature="e#7195#7196#0" expanded="false" />
+            <element signature="e#11832#11833#0" expanded="false" />
+            <element signature="e#11874#11875#0" expanded="false" />
+            <element signature="e#12139#12140#0" expanded="false" />
+            <element signature="e#12185#12186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3405,7 +3439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/app/newbee/lib/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63">
+        <state vertical-scroll-proportion="0.41501975">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
