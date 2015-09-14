@@ -92,3 +92,4 @@
 -dontwarn rx.**
 -dontwarn retrofit.**
 -dontwarn com.google.appengine.**
+-dontwarn java.lang.invoke.*
