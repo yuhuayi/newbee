@@ -6,6 +6,7 @@ import app.newbee.lib.activity.base.BaseActivity;
 import app.newbee.lib.activity.base.SubActivity;
 import app.newbee.lib.activity.demo.DebounceSubPage;
 import app.newbee.lib.activity.demo.JsonSubPage;
+import app.newbee.lib.activity.demo.RetrofitSubPage;
 import butterknife.InjectView;
 import butterknife.OnItemClick;
 import com.newbee.lib.R;
@@ -33,6 +34,7 @@ public class MainActivity extends BaseActivity {
         arrayAdapter = new ArrayAdapter<String>(this, R.layout.item_fragment_text, R.id.tv_fragment_path);
         arrayAdapter.add(JsonSubPage.class.getName());
         arrayAdapter.add(DebounceSubPage.class.getName());
+        arrayAdapter.add(RetrofitSubPage.class.getName());
         lv_fragments.setAdapter(arrayAdapter);
     }
 

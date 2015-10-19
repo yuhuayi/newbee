@@ -7,11 +7,11 @@ import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import app.newbee.lib.App;
 import app.newbee.lib.listener.OnFragmentResultListener;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import com.newbee.lib.R;
 import com.squareup.leakcanary.RefWatcher;
 import rx.subscriptions.CompositeSubscription;
@@ -29,6 +29,11 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
     @Override
     public void writeToParcel(Parcel dest, int flags) {
 
+    }
+
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
     }
 
     @Override
@@ -71,7 +76,7 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
         /**
          *    将loadViewLayout 加入注解库
          */
-        ButterKnife.inject(this,loadViewLayout);
+        ButterKnife.inject(this, loadViewLayout);
         /**
          *  实例化 CompositeSubscription
          */

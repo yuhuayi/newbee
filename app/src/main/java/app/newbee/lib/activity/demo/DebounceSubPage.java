@@ -29,6 +29,8 @@ public class DebounceSubPage extends BaseFragment {
         return inflater.inflate(R.layout.page_debounce_layout, container, false);
     }
 
+
+
 //    @OnClick(R.id.bt_debounce)
 //    public void oneDbounce() {
 //        LogUtil.info(DebounceSubPage.class, "--->  ");
@@ -37,7 +39,6 @@ public class DebounceSubPage extends BaseFragment {
 
     @Override
     protected void processLogic() {
-
         Subscription subscribe = ViewObservable.clicks(bt_debounce)
                 .map(new Func1<OnClickEvent, Long>() {
                     @Override

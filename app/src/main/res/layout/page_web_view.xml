@@ -29,10 +29,31 @@
                 android:textStyle="bold"/>
     </RelativeLayout>
 
-    <WebView
-            android:id="@+id/webview"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:scrollbars="none"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="48dp"
+              android:layout_marginLeft="48dp"
+              android:layout_marginRight="48dp"
+              android:hint="手机号"
+              style="@android:style/Theme.Holo.InputMethod"
+            />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="48dp"
+              android:layout_marginRight="48dp"
+              android:hint="密码"
+              style="@android:style/Theme.Holo.InputMethod"
+            />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/bt_login"
+            android:text="登录"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="@color/accent_material_light"
+            android:textColor="@android:color/white"
+            />
 
 </LinearLayout>
