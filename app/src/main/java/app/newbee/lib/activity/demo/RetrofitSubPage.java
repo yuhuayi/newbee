@@ -1,9 +1,9 @@
 package app.newbee.lib.activity.demo;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.EditText;
 import app.newbee.lib.activity.base.BaseFragment;
@@ -14,7 +14,6 @@ import app.newbee.lib.util.Coder;
 import app.newbee.lib.util.LogUtil;
 import app.newbee.lib.util.PromptManager;
 import app.newbee.lib.util.StringUtils;
-import butterknife.ButterKnife;
 import butterknife.InjectView;
 import com.newbee.lib.R;
 import rx.Subscriber;
@@ -25,7 +24,6 @@ import rx.schedulers.Schedulers;
 
 
 public class RetrofitSubPage extends BaseFragment {
-
 
     @InjectView(R.id.et_login_mobile)
     EditText etLoginMobile;
@@ -42,6 +40,10 @@ public class RetrofitSubPage extends BaseFragment {
 
     @Override
     protected void processLogic() {
+    }
+
+    @Override
+    protected void click() {
         Subscription subscribe = ViewObservable.clicks(btLogin)
                 .subscribeOn(AndroidSchedulers.mainThread())
                 .observeOn(Schedulers.io())
@@ -94,22 +96,5 @@ public class RetrofitSubPage extends BaseFragment {
         compositeSubscription.add(subscribe);
     }
 
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-    }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // TODO: inflate a fragment view
-        View rootView = super.onCreateView(inflater, container, savedInstanceState);
-        ButterKnife.inject(this, rootView);
-        return rootView;
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        ButterKnife.reset(this);
-    }
 }

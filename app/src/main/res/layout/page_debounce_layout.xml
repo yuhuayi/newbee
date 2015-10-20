@@ -29,6 +29,6 @@
                 android:textStyle="bold"/>
     </RelativeLayout>
 
-    <Button android:layout_width="wrap_content" android:id="@+id/bt_debounce" android:layout_height="wrap_content" android:textColor="@android:color/white" android:text="测试多次点击"
+    <Button android:layout_width="wrap_content" android:id="@+id/bt_debounce" android:layout_height="wrap_content" android:textColor="@android:color/white" android:text="防反跳"
             android:background="@color/material_blue_grey_800" android:layout_gravity="center_horizontal"/>
 </LinearLayout>

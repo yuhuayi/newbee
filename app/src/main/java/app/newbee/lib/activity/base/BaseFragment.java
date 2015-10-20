@@ -83,6 +83,7 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
         if (compositeSubscription == null || compositeSubscription.isUnsubscribed()) {
             compositeSubscription = new CompositeSubscription();
         }
+        click();
         processLogic();
         return loadViewLayout;
     }
@@ -97,6 +98,12 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
      * 业务逻辑处理，主要与后端交互
      */
     protected abstract void processLogic();
+
+    /**
+     * 业务逻辑处理，主要与后端交互
+     */
+    protected void click() {
+    }
 
     /**
      * 模拟后退键
