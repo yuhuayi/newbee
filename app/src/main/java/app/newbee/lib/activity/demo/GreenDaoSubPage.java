@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.util.LogUtil;
-import butterknife.InjectView;
+import butterknife.Bind;
 import com.newbee.lib.R;
 import rx.Subscription;
 import rx.android.view.OnClickEvent;
@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class GreenDaoSubPage extends BaseFragment {
 
-    @InjectView(R.id.bt_debounce)
+    @Bind(R.id.bt_debounce)
     Button bt_debounce;
 
     @Override

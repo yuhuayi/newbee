@@ -5,6 +5,8 @@ import android.app.ActivityManager.RunningAppProcessInfo;
 import android.app.ActivityManager.RunningTaskInfo;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 
 import java.util.List;
 
@@ -92,5 +94,52 @@ public class AppUtils {
             }
         }
         return true;
+    }
+
+    /**
+     * get app version code
+     *
+     * @param context
+     * @return
+     */
+    public static int getAppVersionCode(Context context) {
+        if (context != null) {
+            PackageManager pm = context.getPackageManager();
+            if (pm != null) {
+                PackageInfo pi;
+                try {
+                    pi = pm.getPackageInfo(context.getPackageName(), 0);
+                    if (pi != null) {
+                        return pi.versionCode;
+                    }
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return -1;
+    }
+    /**
+     * get app version code
+     *
+     * @param context
+     * @return
+     */
+    public static String getAppVersionName(Context context) {
+        if (context != null) {
+            PackageManager pm = context.getPackageManager();
+            if (pm != null) {
+                PackageInfo pi;
+                try {
+                    pi = pm.getPackageInfo(context.getPackageName(), 0);
+                    if (pi != null) {
+                        return pi.versionName;
+                    }
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return "";
     }
 }

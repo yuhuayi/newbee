@@ -3,7 +3,6 @@ package app.newbee.lib.activity.demo;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.EditText;
 import app.newbee.lib.activity.base.BaseFragment;
@@ -14,7 +13,7 @@ import app.newbee.lib.util.Coder;
 import app.newbee.lib.util.LogUtil;
 import app.newbee.lib.util.PromptManager;
 import app.newbee.lib.util.StringUtils;
-import butterknife.InjectView;
+import butterknife.Bind;
 import com.newbee.lib.R;
 import rx.Subscriber;
 import rx.Subscription;
@@ -25,11 +24,11 @@ import rx.schedulers.Schedulers;
 
 public class RetrofitSubPage extends BaseFragment {
 
-    @InjectView(R.id.et_login_mobile)
+    @Bind(R.id.et_login_mobile)
     EditText etLoginMobile;
-    @InjectView(R.id.et_login_psd)
+    @Bind(R.id.et_login_psd)
     EditText etLoginPsd;
-    @InjectView(R.id.bt_login)
+    @Bind(R.id.bt_login)
     Button btLogin;
 
     @Override

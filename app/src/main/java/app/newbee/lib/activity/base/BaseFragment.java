@@ -45,7 +45,7 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ButterKnife.reset(this);
+        ButterKnife.unbind(this);
     }
 
     @Override
@@ -76,7 +76,7 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
         /**
          *    将loadViewLayout 加入注解库
          */
-        ButterKnife.inject(this, loadViewLayout);
+        ButterKnife.bind(this, loadViewLayout);
         /**
          *  实例化 CompositeSubscription
          */

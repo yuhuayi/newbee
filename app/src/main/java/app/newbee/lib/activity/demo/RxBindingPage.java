@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.util.LogUtil;
-import butterknife.InjectView;
+import butterknife.Bind;
 import com.jakewharton.rxbinding.view.RxView;
 import com.jakewharton.rxbinding.view.ViewClickEvent;
 import com.newbee.lib.R;
@@ -23,11 +23,11 @@ import java.util.concurrent.TimeUnit;
 public class RxBindingPage extends BaseFragment {
 
 
-    @InjectView(R.id.bt_throttleFirst)
+    @Bind(R.id.bt_throttleFirst)
     Button btThrottleFirst;
-    @InjectView(R.id.et_login_mobile)
+    @Bind(R.id.et_login_mobile)
     EditText etLoginMobile;
-    @InjectView(R.id.et_login_psd)
+    @Bind(R.id.et_login_psd)
     EditText etLoginPsd;
 
     @Override
