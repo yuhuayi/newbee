@@ -7,17 +7,10 @@ import android.widget.Button;
 import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.util.LogUtil;
 import butterknife.Bind;
+import butterknife.OnClick;
 import com.newbee.lib.R;
 import rx.Observable;
-import rx.Observer;
-import rx.Subscriber;
 import rx.functions.Action0;
-import rx.functions.Action1;
-
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 
 public class RxSubPage extends BaseFragment {
@@ -35,6 +28,10 @@ public class RxSubPage extends BaseFragment {
         return inflater.inflate(R.layout.page_sub_rx, container, false);
     }
 
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
+    }
 
     @Override
     protected void processLogic() {
@@ -82,6 +79,7 @@ public class RxSubPage extends BaseFragment {
                 LogUtil.info(RxSubPage.class, "doOnSubscribe");
             }
         }).subscribe();
+
 
     }
 

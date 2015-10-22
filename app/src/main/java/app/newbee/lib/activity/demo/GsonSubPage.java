@@ -8,6 +8,7 @@ import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.model.gson.Root;
 import app.newbee.lib.util.LogUtil;
 import butterknife.Bind;
+import butterknife.OnClick;
 import com.google.gson.Gson;
 import com.newbee.lib.R;
 
@@ -39,6 +40,10 @@ public class GsonSubPage extends BaseFragment {
     protected void processLogic() {
         text.setText(txt);
         deserializeAndSerialization();
+    }
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
     }
 
     /**

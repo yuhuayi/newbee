@@ -10,6 +10,7 @@ import app.newbee.lib.activity.base.BaseActivity;
 import app.newbee.lib.activity.base.SubActivity;
 import app.newbee.lib.activity.demo.*;
 import app.newbee.lib.activity.demo.bufferKnife.BufferKnifePage;
+import app.newbee.lib.activity.demo.rxbus_demo.RxBusSubPage;
 import butterknife.Bind;
 import butterknife.OnItemClick;
 import com.newbee.lib.R;
@@ -43,6 +44,7 @@ public class MainActivity extends BaseActivity {
         mainDatas.add(new MainData(RetrofitSubPage.class.getName(), "retrofit 样例"));
         mainDatas.add(new MainData(RxBindingPage.class.getName(), "rxbinding 样例"));
         mainDatas.add(new MainData(RxSubPage.class.getName(), "rx 样例"));
+        mainDatas.add(new MainData(RxBusSubPage.class.getName(), "rxbus 样例"));
 
         MainAdapter mainAdapter = new MainAdapter(this);
         mainAdapter.resetData(mainDatas);

@@ -14,6 +14,7 @@ import app.newbee.lib.util.LogUtil;
 import app.newbee.lib.util.PromptManager;
 import app.newbee.lib.util.StringUtils;
 import butterknife.Bind;
+import butterknife.OnClick;
 import com.newbee.lib.R;
 import rx.Subscriber;
 import rx.Subscription;
@@ -36,6 +37,10 @@ public class RetrofitSubPage extends BaseFragment {
         return inflater.inflate(R.layout.page_sub_retrofit, container, false);
     }
 
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
+    }
 
     @Override
     protected void processLogic() {

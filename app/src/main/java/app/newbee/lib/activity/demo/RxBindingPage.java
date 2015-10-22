@@ -8,6 +8,7 @@ import android.widget.EditText;
 import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.util.LogUtil;
 import butterknife.Bind;
+import butterknife.OnClick;
 import com.jakewharton.rxbinding.view.RxView;
 import com.jakewharton.rxbinding.view.ViewClickEvent;
 import com.newbee.lib.R;
@@ -33,6 +34,10 @@ public class RxBindingPage extends BaseFragment {
     @Override
     protected View loadViewLayout(LayoutInflater inflater, ViewGroup container) {
         return inflater.inflate(R.layout.page_sub_rxbinding, container, false);
+    }
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
     }
 
 

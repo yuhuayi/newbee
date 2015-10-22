@@ -31,11 +31,6 @@ public abstract class BaseFragment extends Fragment implements OnFragmentResultL
 
     }
 
-    @OnClick(R.id.title_back_img)
-    void onBackPress() {
-        mActivity.onBackPressed();
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);

@@ -7,6 +7,7 @@ import android.widget.Button;
 import app.newbee.lib.activity.base.BaseFragment;
 import app.newbee.lib.util.LogUtil;
 import butterknife.Bind;
+import butterknife.OnClick;
 import com.newbee.lib.R;
 import rx.Subscription;
 import rx.android.view.OnClickEvent;
@@ -27,6 +28,10 @@ public class DebounceSubPage extends BaseFragment {
     @Override
     protected View loadViewLayout(LayoutInflater inflater, ViewGroup container) {
         return inflater.inflate(R.layout.page_debounce_layout, container, false);
+    }
+    @OnClick(R.id.title_back_img)
+    void onBackPress() {
+        mActivity.onBackPressed();
     }
 
 
