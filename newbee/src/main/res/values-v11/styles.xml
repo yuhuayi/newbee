@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RootTheme" parent="android:Theme.Holo">
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">0dp</item>
+    </style>
+</resources>

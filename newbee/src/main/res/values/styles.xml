@@ -1,0 +1,124 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="AppTheme" parent="android:Theme.Light"/>
+
+    <style name="Transparent" parent="Theme.AppCompat">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="title_center_tv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+    <style name="title_left_bt_style">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/dp_4</item>
+        <item name="android:layout_marginRight">@dimen/dp_4</item>
+        <item name="android:src">@mipmap/newbee_ic_back</item>
+    </style>
+    <style name="title_right_tv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/dp_6</item>
+        <item name="android:paddingRight">@dimen/dp_6</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/dp_4</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="title_right_iv_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">@dimen/dp_6</item>
+        <item name="android:paddingRight">@dimen/dp_6</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/dp_4</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="title_rl_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@color/color_saffron</item>
+    </style>
+    <style name="teme_icon_18_size">
+        <item name="android:layout_width">@dimen/dp_18</item>
+        <item name="android:layout_height">@dimen/dp_18</item>
+    </style>
+    <style name="icon_28_size">
+        <item name="android:layout_width">@dimen/dp_28</item>
+        <item name="android:layout_height">@dimen/dp_28</item>
+    </style>
+
+
+    <style name="DemoButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">40dp</item>
+    </style>
+
+    <style name="setting_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_height">42dp</item>
+    </style>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/sr_color_primary</item>
+        <item name="colorPrimaryDark">@color/sr_color_primary_dark</item>
+        <item name="colorAccent">@color/sr_color_primary_dark</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/sr_window_background</item>
+    </style>
+
+    <style name="CPB" parent="Widget.AppCompat.ProgressBar"/>
+    <style name="CircularProgressBar" parent="CPB">
+        <item name="cpb_color">@color/cpb_default_color</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cpb_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style>
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/loading_layout_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

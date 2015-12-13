@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog_view"
+              android:orientation="vertical"
+              android:layout_gravity="center_horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/translucence"
+              android:minHeight="60dp"
+              android:minWidth="180dp"
+              android:gravity="center"
+              android:clipChildren="false"
+        >
+    <app.newbee.lib.view.common.MetaballView
+            android:id="@+id/metaball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+            android:id="@+id/tipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:text="数据加载中……"/>
+</LinearLayout>

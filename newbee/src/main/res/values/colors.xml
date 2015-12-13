@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_bg">#aa000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="top_bar_normal_bg">#7188ba</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+
+    <color name="default_color">#c5c5c5</color>
+    <color name="btn_login_normal">#00acff</color>
+
+    <color name="left_menu_color">#34373c</color>
+    <color name="left_menu_item_select_color">#1b1c1e</color>
+    <color name="login_background_color">#ebebeb</color>
+    <color name="dialog_message_color">#242424</color>
+    <color name="black_99_color">#333333</color>
+    <color name="gind_pass_text_color">#288dfc</color>
+    <color name="tv_selectt_tab">#7188ba</color>
+    <color name="title_color">@color/treeview_red</color>
+    <color name="ga_blue_half_color">#554abdcc</color>
+    <color name="ga_expiration_date_color">#d8d8d8</color>
+    <color name="ga_login_bg">#f7f6f2</color>
+    <color name="color_ju_yellow">#ff8c00</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_blue">#2D72A7</color>
+    <color name="color_gray">#C0C0C0</color>
+    <color name="color_deepskyblue">#00bfff</color>
+    <color name="color_darkcyan">#00ced1</color>
+    <color name="color_darkblue">#b0c4d1</color>
+    <color name="color_saffron">#f5a33b</color>
+    <color name="color_redblack">#800000</color>
+    <color name="color_yellow">#ffff00</color>
+    <color name="color_bright_white">#80FEFDFC</color>
+    <color name="color_bright_green">#80B7EE98</color>
+    <color name="color_gray_def">#c8c8c8</color>
+    <color name="color_gray_press">#7b7b7b</color>
+    <color name="color_gray_light">#f5f5f5</color>
+    <color name="color_gray_darker">#eeeeee</color>
+    <color name="color_green">#90ee90</color>
+    <color name="jindu_green">#a5d070</color>
+    <color name="zong_yellow">#b07f15</color>
+
+    <color name="trans">#00000000</color>
+
+    <color name="gray">#888888</color>
+    <color name="tint_blue">#f4fcff</color>
+    <color name="a_tint_blue">#c0d6df</color>
+    <color name="half_gray">#c5c5c5</color>
+    <color name="gray_blue">#07a0dc</color>
+    <color name="white">#ffffffff</color>
+    <color name="line_color">#ababab</color>
+    <color name="translucence">#55ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="semi_transparent">#99000000</color>
+    <color name="dark_semi_transparent">#cc000000</color>
+    <color name="haf_semi_transparent">#b0000000</color>
+    <color name="trans_orange">#ffdc7e</color>
+    <color name="skyblue">#87ceeb</color> <!-- 天蓝色 -->
+    <color name="lightblue">#3cb371</color> <!-- 亮蓝色 -->
+    <color name="blue">#0000ff</color> <!-- 蓝色 -->
+    <color name="qblue">#6495ED</color> <!-- 浅蓝色 -->
+    <color name="durk">#485667</color>
+    <color name="pink">#f0b0d7</color> <!-- 粉色 -->
+    <color name="search">#c3c3c3</color> <!-- 搜索北京 -->
+
+    <color name="orange_light">#fffaee</color> <!-- 橘红色 浅 -->
+    <color name="orange_dark">#ff9d77</color> <!-- 橘红色 深 -->
+    <color name="rosybrown">#bc8f8f</color> <!-- 褐玫瑰红 -->
+    <color name="red">#ff0000</color> <!-- 红色 -->
+    <color name="treeview_red">#f9523c</color> <!-- 红色 -->
+    <color name="tran_red">#fa6255</color> <!-- 红色 -->
+    <color name="gree">#2efd05</color> <!-- 绿色 -->
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="dimgray">#696969</color> <!-- 暗灰色 -->
+    <color name="lightgrey">#cccccc</color> <!-- 亮灰色  -->
+
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="h_black">#303030</color> <!-- 横幅黑  -->
+    <color name="transparent">#00000000</color>
+    <color name="title_hui">#21292b</color> <!-- 标题导航栏灰色 -->
+
+    <color name="title_tab_hui">#4b4b53</color> <!-- tabhost导航栏灰色 -->
+    <color name="tab_text_hui">#919191</color> <!-- 字体灰色 -->
+    <color name="biaoqian_hui">#fafafa</color> <!-- 字体灰色 -->
+    <color name="xiantiao_hui">#cdcdcd</color> <!-- 线条灰色 -->
+    <color name="background">#ebebeb</color> <!-- 背景颜色 -->
+    <color name="usercenter_background">#ebebeb</color> <!-- 背景颜色 -->
+    <color name="login_background">#3a3c46</color> <!-- 登录界面背景颜色 -->
+
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <color name="sr_color_primary">#FF4E3E7F</color>
+    <color name="sr_color_primary_dark">#FF4E3E7F</color>
+    <color name="sr_window_background">#FFFEFEFE</color>
+    <color name="circle_blue">#5aa6e9</color>
+
+</resources>
